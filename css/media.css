@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* ヘッダー */
+@media(max-width:600px){
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
+    #top{
+        width: 100%;
+        height: 200px;
+    }
+    #header{
+        height: 50px;
+        padding: 10px;
+    }
+    .area-nav-header{
+        display: none;
+    }
+    .header-logo{
+        font-size: 25px;
+    }
+
+    .main-wrapper{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .main-vis{
+        width: 100%;
+    }
+    .concept{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+}

@@ -24,6 +24,9 @@ body{
     background-color: #1f1e63;
     content: "";
 }
+.goSection{
+    cursor: pointer;
+}
 .sentent{
     font-size: 18px;
     line-height: 1.3;
