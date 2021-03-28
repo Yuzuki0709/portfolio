@@ -1,0 +1,242 @@
+body{
+    background-color: #dfe2ea;
+    color: #333;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.container{
+    padding: 70px 100px;
+}
+.title{
+    margin-left: 43%;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+}
+.title::after{
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+    background-color: #1f1e63;
+    content: "";
+}
+.sentent{
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 1.1px;
+}
+.fadein{
+    transition: opacity 1s, transform 2s;
+}
+.fadein-right{
+    opacity: 0;
+    transform: translateX(50px);
+}
+.fadein-left{
+    opacity: 0;
+    transform: translateX(-90px);
+}
+.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#top{
+    height: 100vh;
+}
+
+#header{
+    height: 150px;
+    padding: 30px 20px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    font-size: 50px;
+    font-family: 'Bowlby One SC', cursive;
+}
+.area-nav-header{
+    display: flex;
+    align-items: center;
+}
+.area-nav-header li{
+    display: block;
+    padding: 0 15px;
+}
+.area-nav-header li:hover{
+    text-decoration: underline;
+}
+
+.main-wrapper{
+    display: flex;
+}
+.main-vis{
+    width: 65%;
+}
+.concept{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ABOUT */
+#about{
+    background-color: #fff;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.about-wrapper{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.about-left{
+    width: 30%;
+    margin-right: 30px;
+}
+.about-title{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* WORKS */
+.content-box{
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    height: 600px;
+
+}
+.work-img img{
+    width: 50%;
+    transition: filter 0.3s;
+}
+.work-img img:hover{
+    filter: brightness(50%);
+}
+.pearent{
+    color: #0000ff;
+}
+
+/* SKILL */
+.skill-wrapper{
+}
+.content-box-skill{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+.content-skill{
+    width: 40%;
+    padding: 20px 0;
+    display: flex;
+}
+.content-skill img{
+    width: 30%;
+}
+.sentent-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.skillname{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* SERVICES */
+.serv-wrapper{
+    background-image: url(../img/services.png);
+    background-size: cover;
+}
+.serv-title{
+    margin: 0;
+    color: #dfe2ea;
+}
+.content-box-serv{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 10px;
+}
+.content-serv{
+    background-color: #dfe2ea;
+    width: 30%;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 20px 1px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+}
+.content-serv i{
+    font-size: 40px;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #1f1e63;
+    color: #fff;
+    border-radius: 50%;
+}
+.serv-name{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.sentent-serv{
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* CONTACT */
+.form{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.form input, .form textarea{
+    background-color: #fff;
+    outline: 1px #333;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.btn{
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #ee7d50;
+    border: 2px solid #dfe2ea;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #ee7d50;
+    border: 2px solid #ee7d50;
+}
+
+/* フッター */
+.footer-wrapper{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 14px;
+    background-color: #333;
+    color: #dfe2ea;
+}
+
